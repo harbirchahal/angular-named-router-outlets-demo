@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-self: center;
+}
+
+.separator {
+  align-self: center;
+}
+
+.card {
+  border: 0;
+  right: 0;
+  position: fixed;
+  margin-top: 100px;
+}

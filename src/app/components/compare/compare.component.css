@@ -1,0 +1,13 @@
+section {
+  display: flex;
+  flex-direction: row;
+}
+
+.separator {
+  align-self: center;
+  margin: 0px 10px;
+}
+
+a {
+  margin-top: 25px;
+}

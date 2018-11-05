@@ -1,0 +1,22 @@
+<p>
+  Search and select upto two countries for comparision
+</p>
+
+<country-list [countries]="countries$ | async" (select)="onSelect($event)">
+</country-list>
+
+<div *ngIf="showCard" class="card"> 
+  <country-item [country]="country1"
+    [letClose]="country1"
+    (close)="onRemove(country1)">
+  </country-item>
+  <span class="separator">vs</span>
+  <country-item [country]="country2"
+    [letClose]="country2"
+    (close)="onRemove(country2)">
+  </country-item>
+  <button mat-raised-button class="center" color="primary"
+    [disabled]="!allowSubmit()"
+    (click)="onSubmit()">Compare<mat-icon>arrow_right</mat-icon>
+  </button>
+</div>

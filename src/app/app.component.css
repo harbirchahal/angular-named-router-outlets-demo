@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+footer {
+  margin-top: 25px;
+  padding: 10px;
+}
+
+footer > p {
+  margin-top: 10px;
+  color: grey;
+}
