@@ -12,3 +12,7 @@ mat-icon {
 .center {
   text-align: center;
 }
+
+.close {
+  cursor: pointer;
+}

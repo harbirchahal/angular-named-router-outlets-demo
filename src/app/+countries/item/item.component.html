@@ -1,5 +1,5 @@
 <ng-container *ngIf="country; else showEmpty">
-  <mat-icon *ngIf="letClose" (click)="onClose()">close</mat-icon>
+  <mat-icon class="close" *ngIf="letClose" (click)="onClose()">close</mat-icon>
   <mat-card>
     <mat-card-header>
       <div mat-card-avatar [ngStyle]="bgImageFlag"></div>
